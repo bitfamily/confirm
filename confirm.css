@@ -1,0 +1,91 @@
+.confirm{
+	position: absolute;
+	display: none;
+	left: 50%;
+	top: 50%;
+	margin-top: -78px;
+	margin-left: -210px;
+	width: 420px;
+	height: 156px;
+	border-radius: 5px;
+	background-color: #f0eff0;
+	border: 1px solid rgba(0,0,0,.2);
+	box-shadow: 0 4px 8px rgba(0,0,0,.2);
+	font-size: 12px;
+	z-index: 100;
+}
+
+.confirm .logo{
+	position: absolute;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	left: 36px;
+	top: 30px;
+	background-size: 100%;
+	background-image: url(img/logo.png);
+}
+.confirm-hd{
+	position: relative;
+	height: 25px;
+	line-height: 25px;
+	font-size: 15px;
+	color: #383d48;
+	margin-top: 30px;
+	margin-left: 122px;
+}
+
+.confirm-bd{
+	margin-left: 122px;
+	margin-right: 20px;
+	font-size: 12px;
+	line-height: 15px;
+	color: #383d48;
+	height: 60px;
+}
+
+.confirm-ft{
+	text-align: right;
+	margin-top: 6px;
+	margin-right: 20px;
+}
+.confirm-cancel,
+.confirm-ok{
+	display: inline-block;
+	width: 80px;
+	height: 22px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.confirm-cancel{
+	margin-right: 12px;
+	color: #383d48;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+.confirm-cancel:active{
+	color: #fff;
+	background-color: #2e8afc;
+}
+
+.confirm-ok{
+	background-color: #429cfc;
+	color: #fff;
+	border: 1px solid #1980ed;
+}
+.confirm-ok:active{
+	background-color: #2e8afc;
+}
+
+.confirm-mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+	/*background-color: rgba(0,0,0,.25);*/
+}
